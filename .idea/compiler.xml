@@ -11,6 +11,8 @@
         <module name="spring_boot_03" />
         <module name="spring_boot_04" />
         <module name="spring_boot_05" />
+        <module name="spring_boot_06" />
+        <module name="spring_boot_07" />
       </profile>
     </annotationProcessing>
   </component>

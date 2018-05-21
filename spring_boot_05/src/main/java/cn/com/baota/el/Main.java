@@ -24,7 +24,7 @@ public class Main {
      * 7.注入属性文件
      */
     public static void main(String[] args){
-        AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext();
+        AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(ELConfig.class);
         ELConfig resourceService = context.getBean(ELConfig.class);
         resourceService.outputResource();
         context.close();

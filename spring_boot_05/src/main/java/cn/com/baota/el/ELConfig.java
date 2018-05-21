@@ -3,6 +3,7 @@ package cn.com.baota.el;
 import org.apache.commons.io.IOUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
@@ -33,10 +34,11 @@ public class ELConfig {
     private Resource testFile;
     @Value("http://www.baidu.com")
     private Resource testUrl;
-    @Value("#{book.name}")
+    @Value("${book.name}")
     private String bookName;
     @Autowired
     private Environment environment;
+    @Bean
     public static PropertySourcesPlaceholderConfigurer propertyConfigure(){
         return new PropertySourcesPlaceholderConfigurer();
     }
