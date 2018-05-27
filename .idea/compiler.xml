@@ -13,6 +13,14 @@
         <module name="spring_boot_05" />
         <module name="spring_boot_06" />
         <module name="spring_boot_07" />
+        <module name="spring_boot_08" />
+        <module name="spring_boot_09" />
+        <module name="spring_boot_10" />
+        <module name="spring_boot_11" />
+        <module name="spring_boot_12" />
+        <module name="spring_boot_13" />
+        <module name="spring_boot_14" />
+        <module name="spring_boot_15" />
       </profile>
     </annotationProcessing>
   </component>
