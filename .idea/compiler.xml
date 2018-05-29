@@ -21,7 +21,12 @@
         <module name="spring_boot_13" />
         <module name="spring_boot_14" />
         <module name="spring_boot_15" />
+        <module name="spring_boot_spring" />
+        <module name="spring_mvc_01" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="demoWeb" target="1.7" />
+    </bytecodeTargetLevel>
   </component>
 </project>
